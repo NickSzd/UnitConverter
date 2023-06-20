@@ -69,10 +69,31 @@ include CMakeFiles/UnitConverter.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/UnitConverter.dir/flags.make
 
+UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp: ../../include/resources.qrc
+UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp: CMakeFiles/UnitConverter_autogen.dir/AutoRcc_resources_6YEA5652QU_Info.json
+UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp: ../../include/resources.qrc
+UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp: /usr/lib/qt5/bin/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nick/Documents/C_C++/UnitConverter/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for include/resources.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/nick/Documents/C_C++/UnitConverter/out/build/CMakeFiles/UnitConverter_autogen.dir/AutoRcc_resources_6YEA5652QU_Info.json 
+
+CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.o: CMakeFiles/UnitConverter.dir/flags.make
+CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.o: UnitConverter_autogen/mocs_compilation.cpp
+CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.o: CMakeFiles/UnitConverter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Documents/C_C++/UnitConverter/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.o -MF CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.o -c /home/nick/Documents/C_C++/UnitConverter/out/build/UnitConverter_autogen/mocs_compilation.cpp
+
+CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Documents/C_C++/UnitConverter/out/build/UnitConverter_autogen/mocs_compilation.cpp > CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Documents/C_C++/UnitConverter/out/build/UnitConverter_autogen/mocs_compilation.cpp -o CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.s
+
 CMakeFiles/UnitConverter.dir/src/main.cpp.o: CMakeFiles/UnitConverter.dir/flags.make
 CMakeFiles/UnitConverter.dir/src/main.cpp.o: ../../src/main.cpp
 CMakeFiles/UnitConverter.dir/src/main.cpp.o: CMakeFiles/UnitConverter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Documents/C_C++/UnitConverter/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/UnitConverter.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Documents/C_C++/UnitConverter/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/UnitConverter.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UnitConverter.dir/src/main.cpp.o -MF CMakeFiles/UnitConverter.dir/src/main.cpp.o.d -o CMakeFiles/UnitConverter.dir/src/main.cpp.o -c /home/nick/Documents/C_C++/UnitConverter/src/main.cpp
 
 CMakeFiles/UnitConverter.dir/src/main.cpp.i: cmake_force
@@ -83,17 +104,54 @@ CMakeFiles/UnitConverter.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnitConverter.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Documents/C_C++/UnitConverter/src/main.cpp -o CMakeFiles/UnitConverter.dir/src/main.cpp.s
 
+CMakeFiles/UnitConverter.dir/include/mainwindow.cpp.o: CMakeFiles/UnitConverter.dir/flags.make
+CMakeFiles/UnitConverter.dir/include/mainwindow.cpp.o: ../../include/mainwindow.cpp
+CMakeFiles/UnitConverter.dir/include/mainwindow.cpp.o: CMakeFiles/UnitConverter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Documents/C_C++/UnitConverter/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/UnitConverter.dir/include/mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UnitConverter.dir/include/mainwindow.cpp.o -MF CMakeFiles/UnitConverter.dir/include/mainwindow.cpp.o.d -o CMakeFiles/UnitConverter.dir/include/mainwindow.cpp.o -c /home/nick/Documents/C_C++/UnitConverter/include/mainwindow.cpp
+
+CMakeFiles/UnitConverter.dir/include/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UnitConverter.dir/include/mainwindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Documents/C_C++/UnitConverter/include/mainwindow.cpp > CMakeFiles/UnitConverter.dir/include/mainwindow.cpp.i
+
+CMakeFiles/UnitConverter.dir/include/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnitConverter.dir/include/mainwindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Documents/C_C++/UnitConverter/include/mainwindow.cpp -o CMakeFiles/UnitConverter.dir/include/mainwindow.cpp.s
+
+CMakeFiles/UnitConverter.dir/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.o: CMakeFiles/UnitConverter.dir/flags.make
+CMakeFiles/UnitConverter.dir/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.o: UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp
+CMakeFiles/UnitConverter.dir/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.o: CMakeFiles/UnitConverter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Documents/C_C++/UnitConverter/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/UnitConverter.dir/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UnitConverter.dir/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.o -MF CMakeFiles/UnitConverter.dir/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.o.d -o CMakeFiles/UnitConverter.dir/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.o -c /home/nick/Documents/C_C++/UnitConverter/out/build/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp
+
+CMakeFiles/UnitConverter.dir/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UnitConverter.dir/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Documents/C_C++/UnitConverter/out/build/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp > CMakeFiles/UnitConverter.dir/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.i
+
+CMakeFiles/UnitConverter.dir/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UnitConverter.dir/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Documents/C_C++/UnitConverter/out/build/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp -o CMakeFiles/UnitConverter.dir/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.s
+
 # Object files for target UnitConverter
 UnitConverter_OBJECTS = \
-"CMakeFiles/UnitConverter.dir/src/main.cpp.o"
+"CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.o" \
+"CMakeFiles/UnitConverter.dir/src/main.cpp.o" \
+"CMakeFiles/UnitConverter.dir/include/mainwindow.cpp.o" \
+"CMakeFiles/UnitConverter.dir/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.o"
 
 # External object files for target UnitConverter
 UnitConverter_EXTERNAL_OBJECTS =
 
+UnitConverter: CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.o
 UnitConverter: CMakeFiles/UnitConverter.dir/src/main.cpp.o
+UnitConverter: CMakeFiles/UnitConverter.dir/include/mainwindow.cpp.o
+UnitConverter: CMakeFiles/UnitConverter.dir/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.o
 UnitConverter: CMakeFiles/UnitConverter.dir/build.make
+UnitConverter: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
+UnitConverter: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
+UnitConverter: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 UnitConverter: CMakeFiles/UnitConverter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nick/Documents/C_C++/UnitConverter/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable UnitConverter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nick/Documents/C_C++/UnitConverter/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable UnitConverter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/UnitConverter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -104,7 +162,7 @@ CMakeFiles/UnitConverter.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/UnitConverter.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/UnitConverter.dir/clean
 
-CMakeFiles/UnitConverter.dir/depend:
+CMakeFiles/UnitConverter.dir/depend: UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp
 	cd /home/nick/Documents/C_C++/UnitConverter/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/Documents/C_C++/UnitConverter /home/nick/Documents/C_C++/UnitConverter /home/nick/Documents/C_C++/UnitConverter/out/build /home/nick/Documents/C_C++/UnitConverter/out/build /home/nick/Documents/C_C++/UnitConverter/out/build/CMakeFiles/UnitConverter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/UnitConverter.dir/depend
 

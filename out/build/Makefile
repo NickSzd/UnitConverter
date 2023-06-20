@@ -129,6 +129,91 @@ UnitConverter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitConverter.dir/build.make CMakeFiles/UnitConverter.dir/build
 .PHONY : UnitConverter/fast
 
+#=============================================================================
+# Target rules for targets named UnitConverter_autogen
+
+# Build rule for target.
+UnitConverter_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 UnitConverter_autogen
+.PHONY : UnitConverter_autogen
+
+# fast build rule for target.
+UnitConverter_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitConverter_autogen.dir/build.make CMakeFiles/UnitConverter_autogen.dir/build
+.PHONY : UnitConverter_autogen/fast
+
+UnitConverter_autogen/6YEA5652QU/qrc_resources.o: UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.o
+.PHONY : UnitConverter_autogen/6YEA5652QU/qrc_resources.o
+
+# target to build an object file
+UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitConverter.dir/build.make CMakeFiles/UnitConverter.dir/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.o
+.PHONY : UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.o
+
+UnitConverter_autogen/6YEA5652QU/qrc_resources.i: UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.i
+.PHONY : UnitConverter_autogen/6YEA5652QU/qrc_resources.i
+
+# target to preprocess a source file
+UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitConverter.dir/build.make CMakeFiles/UnitConverter.dir/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.i
+.PHONY : UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.i
+
+UnitConverter_autogen/6YEA5652QU/qrc_resources.s: UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.s
+.PHONY : UnitConverter_autogen/6YEA5652QU/qrc_resources.s
+
+# target to generate assembly for a file
+UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitConverter.dir/build.make CMakeFiles/UnitConverter.dir/UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.s
+.PHONY : UnitConverter_autogen/6YEA5652QU/qrc_resources.cpp.s
+
+UnitConverter_autogen/mocs_compilation.o: UnitConverter_autogen/mocs_compilation.cpp.o
+.PHONY : UnitConverter_autogen/mocs_compilation.o
+
+# target to build an object file
+UnitConverter_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitConverter.dir/build.make CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.o
+.PHONY : UnitConverter_autogen/mocs_compilation.cpp.o
+
+UnitConverter_autogen/mocs_compilation.i: UnitConverter_autogen/mocs_compilation.cpp.i
+.PHONY : UnitConverter_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+UnitConverter_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitConverter.dir/build.make CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.i
+.PHONY : UnitConverter_autogen/mocs_compilation.cpp.i
+
+UnitConverter_autogen/mocs_compilation.s: UnitConverter_autogen/mocs_compilation.cpp.s
+.PHONY : UnitConverter_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+UnitConverter_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitConverter.dir/build.make CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.s
+.PHONY : UnitConverter_autogen/mocs_compilation.cpp.s
+
+include/mainwindow.o: include/mainwindow.cpp.o
+.PHONY : include/mainwindow.o
+
+# target to build an object file
+include/mainwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitConverter.dir/build.make CMakeFiles/UnitConverter.dir/include/mainwindow.cpp.o
+.PHONY : include/mainwindow.cpp.o
+
+include/mainwindow.i: include/mainwindow.cpp.i
+.PHONY : include/mainwindow.i
+
+# target to preprocess a source file
+include/mainwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitConverter.dir/build.make CMakeFiles/UnitConverter.dir/include/mainwindow.cpp.i
+.PHONY : include/mainwindow.cpp.i
+
+include/mainwindow.s: include/mainwindow.cpp.s
+.PHONY : include/mainwindow.s
+
+# target to generate assembly for a file
+include/mainwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UnitConverter.dir/build.make CMakeFiles/UnitConverter.dir/include/mainwindow.cpp.s
+.PHONY : include/mainwindow.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -161,7 +246,17 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... UnitConverter_autogen"
 	@echo "... UnitConverter"
+	@echo "... UnitConverter_autogen/6YEA5652QU/qrc_resources.o"
+	@echo "... UnitConverter_autogen/6YEA5652QU/qrc_resources.i"
+	@echo "... UnitConverter_autogen/6YEA5652QU/qrc_resources.s"
+	@echo "... UnitConverter_autogen/mocs_compilation.o"
+	@echo "... UnitConverter_autogen/mocs_compilation.i"
+	@echo "... UnitConverter_autogen/mocs_compilation.s"
+	@echo "... include/mainwindow.o"
+	@echo "... include/mainwindow.i"
+	@echo "... include/mainwindow.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
