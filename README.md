@@ -6,7 +6,7 @@
 - C++ 20
 - CMake
 
-## Sprint 1
+## ToDo
 
 1. Implement the GUI with Qt
 2. Allow user to select what they want to convert
